@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+.box{
+    background-color: red;
+    /* Controlls spacing */
+    margin: 15px;
+    width: 30%;
+    /* used to center */
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}

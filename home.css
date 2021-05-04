@@ -6,7 +6,7 @@ body{
     background-color: red;
     /* Controlls spacing */
     margin: 15px;
-    width: 30%;
+    width: fit-content;
     /* used to center */
     padding: 35px;
     margin-left: auto;

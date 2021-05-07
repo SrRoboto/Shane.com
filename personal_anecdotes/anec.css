@@ -9,16 +9,34 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    width: 50%;
+    width: 80%;
 }
 .text{
     position: relative;
-    width: 50%;
+    width: 75%;
     margin: 15px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    padding: 5px;
 
     border: solid chartreuse;
     color: chartreuse;
+    background-color: black;
+}
+#heading{
+    margin-left: -5rem;
+    scale: 60%;
+}
+
+.box{
+    background-color: rgba(128, 255, 0, 0.685);
+    padding-bottom: 10px;
+}
+#bunny{
+    scale: 80%;
+    border: solid 15px chartreuse;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }

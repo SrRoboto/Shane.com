@@ -2,24 +2,35 @@ body{
     background-color: black;
     text-align: center;
 }
-#pic1{
-    scale: 30%;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    top: -40rem;
-
-    /* Need to have solid or border won't show up. */
-    border: 10rem solid red;
+#header{
+    scale: 80%;
+    margin-left: -1.9rem;
 }
-#cap1{
+.box{
+    background-color: rgba(255, 0, 0, 0.822);
+    padding: 10px;
+    margin: 15px;
+}
+.text{
     position: relative;
-    border: 10px solid white;
-    width: 30%;
+    width: 75%;
+    margin: 15px;
     margin-left: auto;
     margin-right: auto;
-    top: -90rem;
+    text-align: left;
+    padding: 5px;
 
-    color: white;
+    border: solid red;
+    color: red;
+    background-color: black;
+}
+
+#seven{
+    scale: 20%;
+    border: solid 15px red;
+    margin-left: -10rem;
+    margin-top: -50rem;
+}
+#text1{
+    margin-top: -50rem;
 }

@@ -2,11 +2,14 @@ body{
     text-align: center;
     background-color: black;
 }
+#header{
+    scale: 70%;
+}
 .box{
     background-color:rgb(0, 234, 255);
     /* Controlls spacing */
     margin: 15px;
-    width: 30%;
+    width: 55%;
     /* used to center */
     padding: 35px;
     margin-left: auto;
@@ -16,7 +19,7 @@ body{
 .cap{
     position: relative;
     border: 5px solid rgb(0, 234, 255);
-    width: 40%;
+    width: 90%;
     margin: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -24,9 +27,9 @@ body{
     color: rgb(0, 234, 255);
     background-color: black;
 }
-#cap1{
-    /* top: -90rem; */
-}
+/* #cap1{
+    top: -90rem;
+} */
 .cont{
     margin: 60px;
 }

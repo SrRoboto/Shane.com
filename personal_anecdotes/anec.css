@@ -28,12 +28,12 @@ body{
     margin-left: -5rem;
     scale: 40%;
 }
-
 .box{
     background-color: rgba(128, 255, 0, 0.685);
     padding: 10px;
     margin: 15px;
 }
+
 #bunny{
     scale: 80%;
     border: solid 15px chartreuse;
@@ -42,3 +42,10 @@ body{
     margin-right: auto;
 }
 
+#jammin{
+    position: relative;
+    scale: 80%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    background-color: #ff00ff;
+    margin: 0;
+}
+
+#booba_cont {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+#booba_scanner {
+    height: 180px;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(#ff00ff,#17fffa,#ff00ff);
+    animation: booba_scanner 4s linear infinite;
+}
+@keyframes booba_scanner {
+    0% {top: -20%;}
+    100% {top: 100%;}
+}
+
+@font-face {
+    font-family: Esmail;
+    src: url(league_gothic-regular.otf);
+}
+
+@font-face {
+    font-family: Miko;
+    src: url(boombox2.ttf);
+}
+#tk {
+    position: absolute;
+    display: block;
+    top: 45%;
+    left: 38.5%;
+    background-color: #7203fa;
+    width: 23%;
+    z-index: 2;
+
+    font-family: Miko;
+    text-align: center;
+    font-size: 60px;
+    color: #ff00ff;
+    padding: 15px;
+}
+
+#cutout {
+    position: absolute;
+    bottom: -20rem;
+    left: 25%;
+    z-index: 1;
+    scale: 60%;
+}
